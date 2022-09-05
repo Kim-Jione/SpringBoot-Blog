@@ -21,7 +21,7 @@ public class UsersController {
 
    @GetMapping("/logout")
    public String logout() {
-   //System.out.println("fdsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+
       session.invalidate();//내 키값에 있는 데이터를 날려버림
       return "redirect:/";//해당사용자의 키값만 그 사람만 영역만 
    }

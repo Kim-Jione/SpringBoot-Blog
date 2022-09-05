@@ -14,7 +14,7 @@ create table users(
     password varchar2(20),
     email varchar2(50),
     createdAt TIMESTAMP
-);
+);	
 
 CREATE SEQUENCE users_seq 
 INCREMENT BY 1 
