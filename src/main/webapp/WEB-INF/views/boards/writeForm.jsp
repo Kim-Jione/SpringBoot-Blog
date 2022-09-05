@@ -8,7 +8,8 @@
 		<div class="mb-3 mt-3">
 			<input
 				type="text" class="form-control"
-				placeholder="Enter title">
+				placeholder="Enter title"
+				>
 		</div>
 		<div class="mb-3">
 			<textarea class="form-control" rows="8"></textarea>
